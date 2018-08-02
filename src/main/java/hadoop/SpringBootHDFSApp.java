@@ -24,6 +24,7 @@ public class SpringBootHDFSApp implements CommandLineRunner {
         for (FileStatus s : shell.lsr("/")) {
             System.out.println("> " + s.getPath());
         }
+//        shell.put("E:/MiFlashvcom.ini","/user/input/");
     }
 
     public static void main(String[] args) {
